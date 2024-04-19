@@ -7,6 +7,7 @@ package Embarcaciones;
 public abstract class Barco {
     private String codigo;
     private int longitud;
+    private String tecnologiaMotor;
 
     //Constructor
     public Barco(String cod, int numBarco, int longitud) {
